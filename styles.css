@@ -1,0 +1,36 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.parent {
+    margin: 50px 50px;
+    border: 4px solid black;
+}
+
+section {
+    padding: 20px;
+}
+
+.red {
+    border: none;
+    margin-bottom: 50px;
+    background-color: red;
+}
+
+.blue {
+    border: none;
+    margin-bottom: 50px;
+    background-color: blue;
+}
+
+.green {
+    border: none;
+    margin-bottom: 50px;
+    background-color: green;
+}
+
+.orange {
+    border: none;
+    background-color: orange;
+}

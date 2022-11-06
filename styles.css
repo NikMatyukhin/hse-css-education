@@ -4,7 +4,8 @@
 }
 
 .parent {
-    margin: 50px 50px;
+    margin: 50px auto;
+    max-width: 1200px;
     border: 4px solid black;
 }
 
@@ -12,25 +13,27 @@ section {
     padding: 20px;
 }
 
+img {
+    float: left;
+    margin: 20px 20px 0px 0px;
+}
+
 .red {
     border: none;
-    margin-bottom: 50px;
-    background-color: red;
+    background-color: rgb(190, 85, 85);
 }
 
 .blue {
     border: none;
-    margin-bottom: 50px;
-    background-color: blue;
+    background-color: rgb(129, 129, 207);
 }
 
 .green {
     border: none;
-    margin-bottom: 50px;
-    background-color: green;
+    background-color: rgb(119, 165, 119);
 }
 
 .orange {
     border: none;
-    background-color: orange;
+    background-color: rgb(202, 160, 83);
 }
